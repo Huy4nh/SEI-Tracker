@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sei": {
+      "command": "npx",
+      "args": ["-y", "@sei-js/mcp-server"],
+      "env": {
+        "PRIVATE_KEY": "YOUR WALLET PRIVATE_KEY"
+      }
+    }
+  }
+}
