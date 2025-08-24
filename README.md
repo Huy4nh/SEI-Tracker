@@ -1,4 +1,4 @@
-# 🤖 SEI Blockchain Telegram Bot with Claude AI & MCP
+# 🤖 SEI Tracker - Blockchain Telegram Bot with Claude AI & SEI MCP
 
 A sophisticated Telegram bot powered by Anthropic's Claude 3.7 Sonnet, integrated with Model Context Protocol (MCP) for real-time SEI blockchain data access. Features intelligent table rendering, web search capabilities, and seamless MCP server integration.
 
