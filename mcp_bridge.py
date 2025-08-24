@@ -13,26 +13,6 @@ except Exception as e:
     traceback.print_exc()
 
 class MCPBridge:
-    """
-    Bridge MCP chạy trên event loop RIÊNG ở background thread để tránh xung đột với uvicorn/aiogram.
-
-    Config hỗ trợ 2 dạng:
-      {
-        "mcpServers": { "sei": { "command": "...", "args": [...], "env": {...} } }
-      }
-      hoặc
-      {
-        "servers":    { "sei": { "command": "...", "args": [...], "env": {...} } }
-      }
-
-    API:
-      - start()                  : sync, khởi động loop nền & kết nối servers
-      - start_async()            : (không cần dùng) phiên bản async nội bộ
-      - anthropic_tools()        : List[dict{name, description, input_schema}]
-      - is_mcp_tool(name)        : bool  (name dạng 'server:tool')
-      - exec_tool(name, args)    : {"text": "..."} | {"image_path": "..."}
-      - find_image_table_tool()  : Optional[str]
-    """
 
     def __init__(self, config_path: str = "mcp.json"):
         self.config_path = config_path

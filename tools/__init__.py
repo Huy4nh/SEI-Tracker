@@ -2,7 +2,7 @@
 from .table_image import MAKE_TABLE_IMAGE_TOOL_DEF, execute_make_table_image
 import os
 
-WEB_SEARCH_TOOL_DEF = {"name": "web_search","type": "web_search_20250305"}
+WEB_SEARCH_TOOL_DEF = {"name": "web_search","type": "web_search_20250305","max_uses": 1}
 
 def get_tools():
     tools = [WEB_SEARCH_TOOL_DEF,MAKE_TABLE_IMAGE_TOOL_DEF]
