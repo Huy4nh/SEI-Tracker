@@ -388,12 +388,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact Information
 
-- **Repository**: [GitHub Issues](../../issues)
+- **Contact**: huynhnguyenhuyanh.work@gmail.com
+- **Website**: seitracker.cloud
+- **Support Us**:https://dorahacks.io/buidl/31445
 - **Documentation**: This README
 - **SEI Network**: [sei.io](https://sei.io/)
-
+### Check out here
+- **Product**:https://t.me/SEITracker_AI_bot
 ---
-
-**Made with ❤️ for the SEI blockchain community**
-
-*Last updated: August 2024* 
+*Last updated: August 2025* 
